@@ -6,5 +6,5 @@ puts "Go #{fourth} five paces"
 
 
 print "Enter a fifth variable: "
-x = gets.chomp.to_s
+x = $stdin.gets.chomp
 puts "Go #{x}"
