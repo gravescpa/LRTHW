@@ -1,9 +1,9 @@
 #Exercise 14 Prompting and Passing
 
-user_name = ARGV.first
+user_name, day_of_week = ARGV
 prompt = '---> '
 
-puts "Hi #{user_name}."
+puts "Hi #{user_name}, happy #{day_of_week}!"
 puts "I'd like to ask you a few questions."
 puts "Do you like me #{user_name}? ", prompt
 likes = $stdin.gets.chomp
