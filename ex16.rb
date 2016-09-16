@@ -32,5 +32,12 @@ target.write("\n")
 target.write(line3)
 target.write("\n")
 
+test = open(filename)
+print test.read
+
 puts "And finally, we close it"
 target.close
+
+test = open(filename)
+print test.read
+
