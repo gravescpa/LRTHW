@@ -8,7 +8,7 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers)
 end
 
 
-puts "We can jsut give the function numbers directly:"
+puts "We can just give the function numbers directly:"
 cheese_and_crackers(20, 30)
 
 
